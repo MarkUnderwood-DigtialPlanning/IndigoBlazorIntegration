@@ -1,0 +1,17 @@
+.row-layout {
+    display: flex;
+}
+.child-1-container {
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    height: 100%;
+}
+.accordion {
+    overflow-y: auto;
+    flex-shrink: 0;
+}
+.text {
+    height: max-content;
+    min-width: min-content;
+}
