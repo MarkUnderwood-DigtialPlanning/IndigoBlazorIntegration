@@ -13,5 +13,6 @@
   <ItemGroup>
     <None Update="Shared/MainLayout.razor.css" CssScope="iphone-11pro-scope" />
     <None Update="Pages/Child1.razor.css" CssScope="child-1-scope" />
+    <None Update="Pages/Testchild2.razor.css" CssScope="testchild-2-scope" />
   </ItemGroup>
 </Project>
