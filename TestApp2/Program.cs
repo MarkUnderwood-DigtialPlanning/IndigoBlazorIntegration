@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
-using GiggerSketchTest;
+using TestApp2;
+using TestApp2.Financial;
 using IgniteUI.Blazor.Controls;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,13 +12,13 @@ builder.Services.AddServerSideBlazor();
 builder.Services.AddHttpClient();
 
 
+builder.Services.AddScoped<IFinancialService>(sp => new FinancialService(sp.GetRequiredService<IWebHostEnvironment>()));
 RegisterIgniteUI(builder.Services);
 
 void RegisterIgniteUI(IServiceCollection services)
 {
     services.AddIgniteUIBlazor(
-        typeof(IgbInputModule),
-        typeof(IgbExpansionPanelModule)
+        typeof(IgbCategoryChartModule)
     );
 }
 
