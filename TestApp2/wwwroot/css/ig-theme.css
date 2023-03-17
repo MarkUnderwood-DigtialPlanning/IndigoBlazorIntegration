@@ -1,5 +1,42 @@
 :root {
-    --ig-font-family: 'Titillium Web', sans-serif;
+    --ig-font-family: "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'";
+    --ig-primary-h: 216deg;
+    --ig-primary-s: 98%;
+    --ig-primary-l: 52%;
+    --ig-secondary-h: 208deg;
+    --ig-secondary-s: 7%;
+    --ig-secondary-l: 46%;
+    --ig-surface-h: 210deg;
+    --ig-surface-s: 17%;
+    --ig-surface-l: 98%;
+    --ig-error-h: 354deg;
+    --ig-error-s: 70%;
+    --ig-error-l: 54%;
+    --ig-success-h: 152deg;
+    --ig-success-s: 69%;
+    --ig-success-l: 31%;
+    --ig-warn-h: 45deg;
+    --ig-warn-s: 100%;
+    --ig-warn-l: 51%;
+    --ig-info-h: 190deg;
+    --ig-info-s: 90%;
+    --ig-info-l: 50%;
+    --ig-primary-600-contrast: white;
+    --ig-primary-700-contrast: white;
+    --ig-primary-A400-contrast: white;
+    --ig-secondary-500-contrast: white;
+    --ig-error-600-contrast: white;
+    --ig-error-A400-contrast: white;
+    --ig-success-600-contrast: white;
+    --ig-success-700-contrast: white;
+    --ig-success-800-contrast: white;
+    --ig-success-A400-contrast: white;
+    --ig-info-600-contrast: black;
+    --ig-info-700-contrast: black;
+    --ig-info-800-contrast: black;
+    --ig-info-900-contrast: black;
+    --ig-info-A400-contrast: black;
+    --ig-info-A700-contrast: black;
 }
 
 /* Charts */

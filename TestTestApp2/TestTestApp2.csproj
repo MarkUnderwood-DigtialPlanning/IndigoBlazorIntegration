@@ -18,7 +18,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <ProjectReference Include="..\GiggerSketchTest\GiggerSketchTest.csproj" />
+    <ProjectReference Include="..\TestApp2\TestApp2.csproj" />
   <PackageReference Include="coverlet.collector" Version="3.1.2">
     <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     <PrivateAssets>all</PrivateAssets>
